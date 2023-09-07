@@ -1,0 +1,47 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+.p_image1{
+    background-image: url("image1.png");
+    min-height:100%;
+}
+.p_image1_text, .p_image2_text,.p_image3_text{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.p_textconaiter{
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    font-size: 40px;
+}
+.bg_textcontaier1,.bg_textcontaier2,.bg_textcontaier3{
+    background-color: rgb(182, 173, 173);
+    color: white;
+}
+.p_image1_text h1,.p_image2_text h1 ,.p_image3_text h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}{
+    text-align: center;
+}{
+    text-align: center;
+}
+.p_image2{
+    background-image: url("image2.png");
+    min-height:100%; 
+}
+.p_image3{
+    background-image: url("image3.png");
+    min-height:100%;
+}
+.p_image1,.p_image2,.p_image3{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
